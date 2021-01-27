@@ -1,0 +1,348 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6224071200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the UK-Visa Home page",
+            "match": {
+              "location": "com.serenity.test.stepdefinitions.UKVisaEligibilityCheck.the_uk_visa_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-27T13:46:29.160Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6359998800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.serenity.test.stepdefinitions.UKVisaEligibilityCheck.launchHomePage()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "UK Visa Eligibility Check for Tourism",
+        "description": "",
+        "id": "uk-visa-eligibilitycheckcriteria-for-different-purposes-of-visit;uk-visa-eligibility-check-for-tourism;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.serenity.test.stepdefinitions.UKVisaEligibilityCheck.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.test.utils.Report.writeHeadingForFail(Report.java:48)\r\n\tat com.test.utils.Report.fail(Report.java:35)\r\n\tat com.serenity.test.implementation.GovUKVisaNationAndReaSelecCriteria.selectNationalityAndReason(GovUKVisaNationAndReaSelecCriteria.java:50)\r\n\tat com.test.pages.VisaChkNationAndReasonCriteriaPage.selectNationalityAndReason(VisaChkNationAndReasonCriteriaPage.java:13)\r\n\tat com.test.pages.VisaChkNationAndReasonCriteriaPage$ByteBuddy$jsn9GO72.selectNationalityAndReason$accessor$ngmVXqe7(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:492)\r\n\tat net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:472)\r\n\tat net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:445)\r\n\tat net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:201)\r\n\tat net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:188)\r\n\tat net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:76)\r\n\tat net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)\r\n\tat com.test.pages.VisaChkNationAndReasonCriteriaPage$ByteBuddy$jsn9GO72.selectNationalityAndReason(Unknown Source)\r\n\tat com.serenity.test.stepdefinitions.UKVisaEligibilityCheck.user_checks_eligibility_for_nationality_with_reason_as(UKVisaEligibilityCheck.java:48)\r\n\tat ✽.user checks eligibility for Australia nationality with reason to visit UK as Tourism(file:///C:/KrishnaData/Candidate_5676/serenity-bdd-ui/src/test/resources/features/VisaEligCheck.feature:11)\r\n",
+              "duration": 15243802200,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "user checks eligibility for Australia nationality with reason to visit UK as Tourism",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Australia",
+                  "offset": 28
+                },
+                {
+                  "val": "Tourism",
+                  "offset": 77
+                }
+              ],
+              "location": "com.serenity.test.stepdefinitions.UKVisaEligibilityCheck.user_checks_eligibility_for_nationality_with_reason_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6002200,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "should see the message You will not need a visa to come to the UK",
+            "match": {
+              "arguments": [
+                {
+                  "val": "You will not need a visa to come to the UK",
+                  "offset": 23
+                }
+              ],
+              "location": "com.serenity.test.stepdefinitions.UKVisaEligibilityCheck.should_see_the_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Reason\u003dTourism"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6321317000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the UK-Visa Home page",
+            "match": {
+              "location": "com.serenity.test.stepdefinitions.UKVisaEligibilityCheck.the_uk_visa_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-27T13:46:59.139Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4794005400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.serenity.test.stepdefinitions.UKVisaEligibilityCheck.launchHomePage()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "UK Visa Eligibility Check To Work in UK",
+        "description": "",
+        "id": "uk-visa-eligibilitycheckcriteria-for-different-purposes-of-visit;uk-visa-eligibility-check-to-work-in-uk;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 8001800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.serenity.test.stepdefinitions.UKVisaEligibilityCheck.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.test.utils.Report.writeHeadingForFail(Report.java:48)\r\n\tat com.test.utils.Report.fail(Report.java:35)\r\n\tat com.serenity.test.implementation.GovUKVisaNationAndReaSelecCriteria.selectNationalityAndReason(GovUKVisaNationAndReaSelecCriteria.java:50)\r\n\tat com.test.pages.VisaChkNationAndReasonCriteriaPage.selectNationalityAndReason(VisaChkNationAndReasonCriteriaPage.java:13)\r\n\tat com.test.pages.VisaChkNationAndReasonCriteriaPage$ByteBuddy$jsn9GO72.selectNationalityAndReason$accessor$ngmVXqe7(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:492)\r\n\tat net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:472)\r\n\tat net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:445)\r\n\tat net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:201)\r\n\tat net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:188)\r\n\tat net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:76)\r\n\tat net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)\r\n\tat com.test.pages.VisaChkNationAndReasonCriteriaPage$ByteBuddy$jsn9GO72.selectNationalityAndReason(Unknown Source)\r\n\tat com.serenity.test.stepdefinitions.UKVisaEligibilityCheck.user_checks_eligibility_for_nationality_with_reason_as(UKVisaEligibilityCheck.java:48)\r\n\tat ✽.user checks eligibility for Chile nationality with reason to visit UK as Work, academic visit or business(file:///C:/KrishnaData/Candidate_5676/serenity-bdd-ui/src/test/resources/features/VisaEligCheck.feature:20)\r\n",
+              "duration": 18016835500,
+              "status": "failed"
+            },
+            "line": 20,
+            "name": "user checks eligibility for Chile nationality with reason to visit UK as Work, academic visit or business",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chile",
+                  "offset": 28
+                },
+                {
+                  "val": "Work, academic visit or business",
+                  "offset": 73
+                }
+              ],
+              "location": "com.serenity.test.stepdefinitions.UKVisaEligibilityCheck.user_checks_eligibility_for_nationality_with_reason_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15999800,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "select planning to work in UK as longer than 6 months",
+            "match": {
+              "arguments": [
+                {
+                  "val": "longer than 6 months",
+                  "offset": 33
+                }
+              ],
+              "location": "com.serenity.test.stepdefinitions.UKVisaEligibilityCheck.select_planning_to_work_in_uk_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7997400,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "should see the message You’ll need a visa to work or do business or academic research in the UK",
+            "match": {
+              "arguments": [
+                {
+                  "val": "You’ll need a visa to work or do business or academic research in the UK",
+                  "offset": 23
+                }
+              ],
+              "location": "com.serenity.test.stepdefinitions.UKVisaEligibilityCheck.should_see_the_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Work"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5576902700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the UK-Visa Home page",
+            "match": {
+              "location": "com.serenity.test.stepdefinitions.UKVisaEligibilityCheck.the_uk_visa_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-27T13:47:29.391Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4252000500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.serenity.test.stepdefinitions.UKVisaEligibilityCheck.launchHomePage()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "UK Visa Eligibility Check to join a partner for long stay in UK",
+        "description": "",
+        "id": "uk-visa-eligibilitycheckcriteria-for-different-purposes-of-visit;uk-visa-eligibility-check-to-join-a-partner-for-long-stay-in-uk;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1006300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.serenity.test.stepdefinitions.UKVisaEligibilityCheck.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.test.utils.Report.writeHeadingForFail(Report.java:48)\r\n\tat com.test.utils.Report.fail(Report.java:35)\r\n\tat com.serenity.test.implementation.GovUKVisaNationAndReaSelecCriteria.selectNationalityAndReason(GovUKVisaNationAndReaSelecCriteria.java:50)\r\n\tat com.test.pages.VisaChkNationAndReasonCriteriaPage.selectNationalityAndReason(VisaChkNationAndReasonCriteriaPage.java:13)\r\n\tat com.test.pages.VisaChkNationAndReasonCriteriaPage$ByteBuddy$jsn9GO72.selectNationalityAndReason$accessor$ngmVXqe7(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:492)\r\n\tat net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:472)\r\n\tat net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:445)\r\n\tat net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:201)\r\n\tat net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:188)\r\n\tat net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:76)\r\n\tat net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)\r\n\tat com.test.pages.VisaChkNationAndReasonCriteriaPage$ByteBuddy$jsn9GO72.selectNationalityAndReason(Unknown Source)\r\n\tat com.serenity.test.stepdefinitions.UKVisaEligibilityCheck.user_checks_eligibility_for_nationality_with_reason_as(UKVisaEligibilityCheck.java:48)\r\n\tat ✽.user checks eligibility for Colombia nationality with reason to visit UK as Join partner or family for a long stay(file:///C:/KrishnaData/Candidate_5676/serenity-bdd-ui/src/test/resources/features/VisaEligCheck.feature:30)\r\n",
+              "duration": 12894491900,
+              "status": "failed"
+            },
+            "line": 30,
+            "name": "user checks eligibility for Colombia nationality with reason to visit UK as Join partner or family for a long stay",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Colombia",
+                  "offset": 28
+                },
+                {
+                  "val": "Join partner or family for a long stay",
+                  "offset": 76
+                }
+              ],
+              "location": "com.serenity.test.stepdefinitions.UKVisaEligibilityCheck.user_checks_eligibility_for_nationality_with_reason_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6003700,
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "select family member immigration status Yes",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Yes",
+                  "offset": 40
+                }
+              ],
+              "location": "com.serenity.test.stepdefinitions.UKVisaEligibilityCheck.select_family_member_immigration_status(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4006100,
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "should see the message You’ll need a visa to join your family or partner in the UK",
+            "match": {
+              "arguments": [
+                {
+                  "val": "You’ll need a visa to join your family or partner in the UK",
+                  "offset": 23
+                }
+              ],
+              "location": "com.serenity.test.stepdefinitions.UKVisaEligibilityCheck.should_see_the_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@JoinUKPartner"
+          }
+        ]
+      }
+    ],
+    "name": "UK Visa EligibilityCheckCriteria for different purposes of visit",
+    "description": "         * As a user when I select reason to visit UK as Tourism for Australia nationality then I should displayed with an outcome message\n         * As a user when I select reason to visit UK as Work for Chile nationality then I should displayed with an outcome message\n         * As a user when I select reason to visit UK as Join Partner for long stay then I should displayed with an outcome message",
+    "id": "uk-visa-eligibilitycheckcriteria-for-different-purposes-of-visit",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/VisaEligCheck.feature",
+    "tags": []
+  }
+]
